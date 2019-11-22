@@ -1,0 +1,47 @@
+Java - Lecture 2 - May 17
+
+we can write n number of classes in java
+we can shift 1000 number of files from one way to another
+
+we can zip all the classes and form one .jar file
+.jar contains all the .class files
+
+.war - web archieve
+.jar + .jar + html + properties + js files - .war (we can see in advance java)
+
+ide provides you to write the code in faster way. we can write the code in notepad also
+
+package while creating the project - logical grouping of all the classes and folders
+
+lets we havn't put the semicolon at the end. eroor shows.. who is responsible for that.. the ide or some thing else = java compiler is giving the error.. at same the it is compiling and ide is showing the error
+
+javac is the command for compile the code when we are writing the code in notepad.
+but we are using ide then it is not need for us to do every time javac.. ide will do that
+
+it we compile the java code then it generate the .class file.. we just compile it not run it. the .class is in com->java->prac => HellowWolrd.class
+
+procudeure - main focus on getting the result
+oops - maintaingn the data, each object has its own state, storing the data
+
+storing data - variable - Computer ram
+allocates some mem from ram and variable has reference to that some part called block
+
+primitive datatype = int char, string, boolean
+reference datatype = class instatnce (more clear later on)
+
+Class is basically the skeleton (what type of methods and properties) - gives you the charachstichs - hold your data
+data member / properties - hold the data (eys, nose) 
+member methods - functions (perfodm some for you)
+
+state - what are the value does the data members holds
+behavious - what actions he can perform
+
+so for the swathi and manish has different state and different behaviours - so we need to create the instances- this belongs to object
+objects are the instance of class
+
+class - human beings
+object - prashuk, manish, swathi (instatnce) - 
+state - if i see and manish doesn't see (each object has its own properties/state)
+behavious - manish is walking, (he is using his own legs / or own properties).. each object is using their own properties to do the task
+
+create the class - todays assignment (define atleast 5 class)

@@ -1,0 +1,50 @@
+Java - Lecture 5 - May 22
+
+constructor - simple method, when a object is created automatically constructed the called
+every data member is its own memory
+
+if we want to share the data member then we want to implemet static
+
+example public transport
+
+class load to JVM only once when the object created and static member will also load when class load at the time of time loading.. mean to say that static memeber alos get some memory
+
+static member associate with class only.. so it loads a sibgle time.
+if we create 100 objects the static member has only one memory
+
+if we change the value of static member than for every object the value get of that data member (static)
+
+so with out creating the object we can call the static member because it is already created (already allocated the memory) at the time when class loads
+
+class calculator
+static int cnt // at class lever rather than a object level
+
+calculator.cnt
+
+calculator c1 = new calculator()
+c1.cnt // compiler gives waring
+
+we cant call the non static member in static method. Every static method has all the static data member except if we create a local data member to that particular static method.. coz for static method it allocates the memory when class allocates bnon static member are object level so it cant create. 
+
+lets say public static void main.. it is main static-- at class level.. and this method is in a class.. and we JVm is calling the this class for the first time. and every member has local data member.
+
+cannot make a reference of non static member to a static method
+
+also this.cnt will also not work becoz cnt is at class leverl.. it is not for object
+
+but vice versa is allowed.. a non static method can called static data member.
+public void setSnt(int cntTemp) {
+	cnt = cntTemp
+}
+
+primitive datatype = int, char
+non primitive datatype = length, bredth
+object/refernce type = r1 (Rectangle r1 = new Rectangle())
+
+ARRAY : Homogeneous datatype - contineous memory block
+Array has to declare the size before doing anything.. it is not dynamic
+Memory allocate at the compile time
+int temp[] = new int[100];
+
+Rectangle recArry[] = new Rectangle[10]; // 10 refernces are created not 10 objects
+

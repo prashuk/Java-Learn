@@ -1,0 +1,15 @@
+Assignment 1: Solved in another txt
+
+Assignment 2: Same as 1
+
+Assignment 3:
+
+
+Assignment 4:
+Trace1: No Equal
+Trace2: Equal
+Trace3: Compiler time error
+Trace4: Rectangle is not a square
+		Rectangle is a square
+		
+Assignment 5: 

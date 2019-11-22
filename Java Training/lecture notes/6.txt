@@ -1,0 +1,29 @@
+Java - Lecture 6 - May 23
+
+Defineing a method
+
+<public/private> <return type> <method name> (<parameters>) {
+	<method body>
+}
+
+Access modifier - access with the class or outside - public/private
+parameter should be in sequence
+
+Constructor - 
+// same name
+// no return type
+// to initialize the data member
+// if we are no declaring then default constructor by JVM and it doesn't have parameters
+// custom - parameteric constructor
+
+class Rectangle {
+	int len, bred;
+	public Rectangle(int l, int b) {
+		this.len = l;
+		this.bred = b
+	}
+	
+	public Rectangle() { // if we already declare the param const the if we need default const then we need to define it.
+		
+	}
+}

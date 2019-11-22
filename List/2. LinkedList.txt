@@ -1,0 +1,36 @@
+import java.util.LinkedList;
+LinkedList<String> list = new LinkedList<String>(); 
+
+list.add("A"); 
+list.addLast("C"); 
+list.addFirst("D"); 
+list.add(2, "E");
+list.addAll(list2);     // add list2 from end in list
+list.addAll(1, list2);  // add list2 from 1 index in list
+
+list.clear();
+list.remove("B"); 
+list.remove(3);     // 3 is index
+list.removeFirst(); 
+list.removeLast(); 
+
+list.clone();
+
+list.contains();
+
+list.get​(int index)
+list.getFirst​()
+list.getLast​()
+
+list.poll();    // retrieve head element and also remove from the list
+
+list.set​(int index, "A")
+
+list.size​();
+
+list.toArray​();
+
+
+Java.util.LinkedList.poll(), pollFirst(), pollLast()
+Java.util.LinkedList.peek() , peekfirst(), peeklast()
+Java.util.LinkedList.offer(), offerFirst(), offerLast()

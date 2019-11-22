@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+ArrayList<String> cars = new ArrayList<String>();
+ArrayList<String> cars = new ArrayList<String>(5);
+
+cars.add("Volvo");
+
+cars.get(0); 
+List
+cars.set(0, "Volvo");   // set Volvo to 0
+
+cars.remove(0);     // remove at index 0
+cars.remove("Volvo");   // remove the first Volvo
+cars.clear();   // empty list
+
+cars.size();    // return int , size of list
+
+cars.indexOf("Volvo");      // returns index
+cars.lastIndexOf("Volvo");      // if two Volvo are there then it returns of index of last one
+
+cars.isEmpty();     // returns boolean
+
+cars.toArray();     // copy all elements to Array
+
+cars.contains("Volvo");     // return boolean
+
+cars.subList​(int fromIndex, int toIndex):
+
+Collections.sort(cars);     // ascending order

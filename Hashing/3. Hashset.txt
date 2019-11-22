@@ -1,0 +1,10 @@
+Similar to HashMap, but maintains only keys, not pair
+
+duplicate values are not allowed
+
+Objects that you insert in HashSet are not guaranteed to be inserted in same order. Objects are inserted based on their hash code
+
+Set<String> h = new HashSet<String>();
+Iterator<String> i = h.iterator(); 
+while (i.hasNext()) 
+     System.out.println(i.next());

@@ -1,0 +1,5 @@
+Java - Lecture 4 - May 21
+
+new - allocated in heap memory (total memory of properties).. storing the address of heap
+
+Refer Assinment for further details

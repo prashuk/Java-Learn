@@ -1,0 +1,62 @@
+Java - Lecture 3 - May 18
+
+class Rectangle {
+	int len;	// properties
+	int bredth;
+	float area;
+	
+	public void setLength(int len) { // methods
+		this.len = len;
+	}
+}
+
+there no use of class if we not declare an object of that class
+
+int a  = 10;	// memory block of created which holds a
+
+Similary -
+Rectangle rec = new Rectangle(); // object created
+Rectangle is data type
+rec is variable name
+new allocates new memory
+Rectangle() constructor - its a method with same name and special method.. it will not return any value and also it dowsn;t have void also .. purpose -- initilize the value of the properties
+
+JVM has two parts of memory - heap memory and stack memory
+HM > SM
+
+Rectangle rec = new Rectangle()
+A variable rec is created in SM (refernce variable)
+when 'new' called a memory block is allocated in HM
+SO the data members of class allocates int the heap memory. but stack is not refernces to heap
+HM get also the address of the memory and in the stack teh object name is equal to address of that particular HM block
+
+Refernces type var - Object (holds address of the the heap memory)
+
+Memory of refence var is equal to class's data members andf their types
+
+Objects are always in heap mem but there referrences are in stack mem. (see slide)
+- Object is created any where.. inany class
+- main method is starting the point
+- JVM will hit to main method.. if we have two main method than we'll decide which main method we want to run.
+
+- if we declare int l; it means l = 0;
+
+- if we not declare constructor the area will return 0. because it will take default value. And compiler will provide the default constructor
+
+class Rectangle {
+	int length;
+	int bredth;
+	
+	Rectangle(int length, int bredth) { // this is parameteric class because it has parameters
+		this.length = length; // length = length will throw warning only
+		this.bredth = bredth; // this -> ref to particular constructor / current object who has called the constructor of that particular data member
+	}
+	
+	area() {
+		return length*bredth;
+	}
+	
+	perameter() {
+		return 2*(length+bredth);
+	}
+}

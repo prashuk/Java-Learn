@@ -1,0 +1,41 @@
+Java - Lecture 1 - May 16
+
+Program = set of instructions
+machine needs to understande with the help of program - programming languages
+
+computer understand binary language (10)
+
+we are not able to understand the ninary language so thats why programming language
+
+low level language - binary
+hight lever - english (all programming language)
+
+there should be conversion from high level to low level language from compiler
+
+interpeter - execute line by line while typing - python, js
+compiler - executes the set of instructions, it generates the output, also check the errors 
+
+C# - .exe file
+java - .class file
+
+java is platform (OS) independent - one code can run on different platform with some low lever languae
+
+why java is platform independent:
+
+JDK - Java Development Kit = provides facility to run the the code (compiler is part of JDK)
+JRE - JAVA Runtime Enviroment = Java Virtual Machine: run our output on JVM (JRE is not contain the compiler)
+
+JRE is only run the java code not compile
+JDK is compile the code and then run coz JDK contains JRE
+Customer get the JRE only not JDK
+
+I generator the .class/byte code and then it compile by JDK and the JRE runs the code so thats why it is platform independent because for every OS has different JDK and JRE
+.class(byte code) (our code) runs by the JVM only
+
+My code talks to JVM (as specific for the OS) and JVM talks to OS
+
+JVM is different for every platform
+
+Manish Negi:
+Email: manishnegi1983@gmail.com
+Ph: 9881759375

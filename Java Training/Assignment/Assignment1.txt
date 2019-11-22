@@ -1,0 +1,69 @@
+class HumanBeing {
+	Eye
+	Nose
+	NumberofFingers
+	Hands
+	Legs
+
+	walk()
+	swim()
+	smell()
+	talk()
+	laugh()
+}
+
+class Car {
+	model
+	brand
+	color
+	gear
+	fuel
+
+	drive()
+	stop()
+	doorOpen()
+	slowdown()
+	openWindow()
+	lock/unlock()
+}
+
+class Mobile {
+	brand
+	color
+	smartPhone
+	regularPhone
+	size
+	capacity
+	processor
+	touchId
+
+	setAlarm()
+	calling()
+	ringing()
+	switchoff()
+	switchon()
+}
+
+class Course {
+	Number
+	faculty
+	venue
+	classDuration
+	midTerm
+	final
+	assignment
+
+	level()
+	completed()
+	preRequisite()
+}
+
+class Hospital {
+	staff
+	doctors
+	address
+	phoneNumber
+
+	Surgery()
+	Treatment()
+}

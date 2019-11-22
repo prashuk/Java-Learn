@@ -1,0 +1,50 @@
+It is similar to HashMap, but is synchronised.
+
+Hashtable stores key/value pair in hash table.
+
+In Hashtable we specify an object that is used as a key, and the value we want to associate to that key.
+The key is then hashed, and the resulting hash code is used as the index at which the value is stored within the table.
+
+
+
+
+import java.util.*; 
+
+Hashtable<Integer, String> ht = new Hashtable<Integer, String>();
+Hashtable<Integer, String> ht = new Hashtable<Integer, String>(5);
+
+ht.put(key, value);
+ht1.putAll(ht);
+
+ht.get(key);
+
+ht.romove(key);
+
+ht1 = ht.clone();
+
+ht.computeIfAbsent("newPen", k -> 600)
+
+ht.contains("newPen");      // return true
+ht.containsKey(600);        // return true
+ht.containsValue("newPen"); // return true
+
+ht.entrySet();      // clone ht to a set (distinct)
+
+ht.equals(ht1);
+
+ht.isEmpty();
+
+ht.values();    // return all values;
+
+ht.elements();  // enum for values
+ht.keys();       // enum for keys
+Enumeration e = ht.elements();
+Enumeration e1 = ht.keys();
+while (e.hasMoreElements()) { 
+    System.out.println(e.nextElement()); 
+} 
+
+ht.size();
+ht.toString();
+
+
