@@ -4,6 +4,7 @@ Char
 Int[]
 String[]
 Char[]
+
 Int: ***************************************************************************************************************************
 int num = -2
 Math.abs(num) // 2
@@ -45,11 +46,15 @@ Collections.sort(list);
 
 Character.toString('c');
 
-List<Integer> list1 = Arrays.stream(nums1).boxed().collect(Collectors.toList());
-List<Integer> list1 = list.stream().distinct().collect(Collectors.toList()); 
-Integer[] finalInt = list1.stream().toArray(Integer[] ::new);
+// int array to list Integer
+List<Integer> list = Arrays.stream(nums).boxed().collect(Collectors.toList());
+List<Integer> list = list.stream().distinct().collect(Collectors.toList()); 
+Integer[] arr = list.stream().toArray(Integer[]::new);
 String[] arr = list.toArray(new String[0]); 
-String[] arr = list.stream().toArray(String[] ::new); 
+String[] arr = list.stream().toArray(String[]::new);
+
+// List to array
+int[] array = list.stream().mapToInt(i->i).toArray(); // slow process
 
 Two types of variables in Java – primitive variables and reference variables. 
 A primitive type refers a primitive data type and reference type refers a class. 

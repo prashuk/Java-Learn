@@ -20,6 +20,7 @@ public class ComparatorComparable {
 					return -1;
 				}
 			}
+			
 		};
 
 		Collections.sort(stud, comparator);
