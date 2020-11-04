@@ -1,24 +1,32 @@
-Int
+Math
+Int, Integer
 String
-Char
-Int[]
+char, Char
+Int[], Integer[]
 String[]
-Char[]
+char[], Char[]
 
-Int: ***************************************************************************************************************************
-int num = -2
+Math: ***************************************************************************************************************************
 Math.abs(num) // 2
+Math.max(1, 2) // 2
+Math.min(1, 2) // 1
+Math.pow(a, b) // a ^ b
+
+Int, Integer: ***************************************************************************************************************************
+int num = -2
 Integer.MIN_VALUE // -2^31
 Integer.MAX_VALUE // -2^32
 Integer.toString(num) // "-2"
 Integer.parseInt("-2") // -2
+Integer.parseInt("10", 2) // 2 // Binary to Decimal
+Integer.toBinaryString(-2) // 1111111111111110 (2's compliment) (Decimal to Binary)
 
 String: ***************************************************************************************************************************
 int str = "Prashuk"
-str.length() // String length: 7
+str.length() // 7
 str.charAt(0) // 'P'
-str.toLowerCase()
-str.upperLowerCase()
+str.toLowerCase() // prashuk
+str.upperLowerCase() // PRASHUK
 
 Char: ***************************************************************************************************************************
 char ch = 'P'
@@ -29,7 +37,7 @@ int arr[] = new int[2];
 int[] arr = new int[2];
 int[] arr = {1,2,3};
 int[] arr = new int[]{1,2,3};
-arr.length // Array lenght
+arr.length // 3
 
 String[]: ***************************************************************************************************************************
 String[] strArr = new String[3];
